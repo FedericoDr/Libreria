@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.books-table>td {
+  padding: 7px 15px;
+}
+
+th {
+  color: aliceblue;
+  font-size: 20px;
+  background-color: #244443;
+}
+
+.books-table:nth-child(odd) {
+  background-color: #e4e4e4;
+  color: #000000;
+  font-size: 18px;
+}
+
+.books-table:nth-child(even) {
+  background-color: #e4e4e4;
+  color: #000000;
+  font-size: 18px;
+}
+
+.tablas {
+  display: flex;
+  background-color: #79ae92;
+  justify-content: center;
+  padding: 40px;
+}
+
+table {
+  border-spacing: 1px;
+}
+
+.div-btn {
+  background-color: #001f36;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+}
+
+.boton {
+  background-color: #382e5e;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 7px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #0d8836;
+}
+
+  
+img{
+  border: 2px solid rgb(0, 0, 0);
+}
+
